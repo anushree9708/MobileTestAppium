@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 51.369 s <<< FAILURE! - in TestSuite
+Khanacaedemy.HybridTesting.testcase2  Time elapsed: 39.81 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 22067ms. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22.18 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUSHRB1', ip: '192.168.43.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUSHRB1', ip: '192.168.43.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+	at Khanacaedemy.HybridTesting.testcase2(HybridTesting.java:65)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Khanacaedemy.HybridTesting.testcase2(HybridTesting.java:65)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 22067ms. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22.18 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUSHRB1', ip: '192.168.43.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+	at Khanacaedemy.HybridTesting.testcase2(HybridTesting.java:65)
+
